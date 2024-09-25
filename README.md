@@ -1,3 +1,3 @@
 # ui_notes
 
-A new Flutter project.
+Um projeto simples de bloco de notas que eu fiz no flutter para ficar de portifolio
