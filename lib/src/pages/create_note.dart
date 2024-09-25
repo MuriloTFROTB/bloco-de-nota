@@ -42,6 +42,13 @@ class _CreateNoteState extends State<CreateNote> {
                   text: textController.text,
                 );
                 _db.addNote(note);
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      'Nota salva com sucesso',
+                    ),
+                  ),
+                );
               },
               child: Center(
                 child: Icon(
